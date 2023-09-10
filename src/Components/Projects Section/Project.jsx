@@ -73,7 +73,7 @@ const data = [
 
 const Project = () => {
   return (
-    <section id="projects">
+    <section id="projects" className="projects container section">
       <div className="sectionTitle">
         <span className="titleNumber">03.</span>
         <h5 className="titleText">
@@ -102,14 +102,14 @@ const Project = () => {
               <div key={id} className="singleProject">
                 <div className="externalLinks flex">
                   <div className="gitHubIcon">
-                    <a href={github} target="_blank">
+                    <a href={github} target="_b">
                       <FiGithub className="icon" />
                     </a>
                   </div>
                 </div>
 
                 <div className="imgDiv">
-                  <a href={liveLink} target="_blank">
+                  <a href={liveLink} target="_blan">
                     <img src={image} alt={title} />
                   </a>
                 </div>
@@ -122,6 +122,7 @@ const Project = () => {
 
                 <div className="technologies flex">
                   <small>{tech1}</small>
+
                   <small>{tech2}</small>
                   <small>{tech3}</small>
                   <small>{tech4}</small>
