@@ -7,7 +7,7 @@ import img2 from "../../assets/fitness.png";
 import img3 from "../../assets/firebase.png";
 import img4 from "../../assets/extenstion.png";
 import img5 from "../../assets/dashboard.png";
-
+import img6 from "../../assets/ecommerce.png";
 const data = [
   {
     id: 1,
@@ -51,7 +51,7 @@ const data = [
     image: img4,
     liveLink: "",
     github: "https://github.com/Aadesh0/Leads-tracker",
-    title: "YouTube Clone",
+    title: "Extenstion",
     desc: "Its a Web Based extenstion where user can save the URl of Current tab and manually type the URL in it.",
     tech1: "HTML",
     tech2: "CSS",
@@ -64,6 +64,18 @@ const data = [
     github: "https://github.com/Aadesh0/dashboard",
     title: "Dashboard",
     desc: "Its a Frontend Dashboard ",
+    tech1: "HTML",
+    tech2: "CSS",
+    tech3: "JavaScript",
+    tech4: "React",
+  },
+  {
+    id: 6,
+    image: img6,
+    liveLink: "https://ecommerce-stripe-aadeshs-projects.vercel.app/",
+    github: "https://github.com/Aadesh0/ecommerce",
+    title: "Ecommerce Shopping ",
+    desc: "Its a Headphone's Shopping Website ",
     tech1: "HTML",
     tech2: "CSS",
     tech3: "JavaScript",
