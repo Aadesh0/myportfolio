@@ -2,7 +2,7 @@ import React from "react";
 import "./about.css";
 import { TbCloudDownload } from "react-icons/tb";
 
-import img from '../../assets/Aadesh.png'
+import img from "../../assets/Aadesh.png";
 
 const About = () => {
   return (
@@ -41,7 +41,7 @@ const About = () => {
         </div>
 
         <div className="aboutImgDiv">
-          <img src={img} alt="Aadesh Kumar" className="aboutImg"/>
+          <img src={img} alt="Aadesh Kumar" className="aboutImg" />
         </div>
       </div>
     </section>
@@ -49,3 +49,4 @@ const About = () => {
 };
 
 export default About;
+//build
