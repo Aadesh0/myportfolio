@@ -11,13 +11,13 @@ const Home = () => {
 
       <div className="leftIcons">
         <div className="socials grid">
-          <a href="https://github.com/Aadesh0" target="_blank">
+          <a href="https://github.com/Aadesh0">
             <AiFillGithub className="icon" />
           </a>
-          <a href="https://www.linkedin.com/in/aadeshkumar01/" target="_blank">
+          <a href="https://www.linkedin.com/in/aadeshkumar01/">
             <AiFillLinkedin className="icon" />
           </a>
-          <a href="https://leetcode.com/aadesh1912/" target="_blank">
+          <a href="https://leetcode.com/aadesh1912/">
             <SiLeetcode className="icon" />
           </a>
           <div className="line"></div>
@@ -57,7 +57,7 @@ const Home = () => {
       <div className="rightEmail">
         <div>
           <div className="emailAddress">
-            <a href="https://mailto:aadeshksanj01@gmail.com" target="_blank">
+            <a href="https://mailto:aadeshksanj01@gmail.com">
               aadeshksanj01@gmail.com
             </a>
           </div>
