@@ -65,7 +65,7 @@ export const Navbar = () => {
             </a>
           </li>
           <button className="btn">
-            <a href="AADESH@RESUME.pdf" download="AADESH@RESUME.pdf">
+            <a href="Kumar_Aadesh.pdf" download="Kumar_Aadesh.pdf">
               Resume
             </a>
           </button>
